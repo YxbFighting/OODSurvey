@@ -30,8 +30,6 @@ Two broad categories of anomaly detection techniques exist. In the standard unsu
 
 <a name="2.2"></a>
 ## 2.2 Novelty Detection
-> *"Admitting one’s ignorance is the first step in acquiring knowledge.” - Socrates*
-
 Novelty detection aims to detect any test samples that do not fall into any training category.
 The detected novel samples are usually prepared for future constructive procedures, such as later specialized analysis, or incremental learning of the model itself.
 Based on the number of training classes, ND contains two different settings:
@@ -46,8 +44,6 @@ Both one-class and multi-class ND are formulated as binary classification proble
 
 <a name="2.3"></a>
 ## 2.3 Open Set Recognition
-> *”To know what you know and what you do not know, that is true knowledge.” - Confucius*
-
 OSR requires the multi-class classifier to simultaneously: 
 1) accurately classify test samples that from `known known classes`;
 2) detect test samples from `unknown unknown classes`.
